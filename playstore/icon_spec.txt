@@ -1,0 +1,13 @@
+Adaptive icon foreground: assets/adaptive-icon.png
+  1024x1024px, transparent background
+  Center: white stylised Kannada ಪ symbol, bold weight
+  Safe zone: keep symbol within inner 66% of canvas
+Adaptive icon background color: #C8102E (in app.json)
+
+Play Store icon: 512x512px PNG, red background, white ಪ symbol
+
+Feature graphic: 1024x500px
+  Background: linear-gradient left #C8102E to right #8B0D20
+  Center: PRAYANA in Playfair Display white 96px bold
+  Below: ಪ್ರಯಾಣ in Noto Serif Kannada yellow 36px
+  Bottom right: "Travel Through the Many Worlds of Karnataka" 18px white

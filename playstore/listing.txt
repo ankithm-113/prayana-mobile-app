@@ -1,0 +1,22 @@
+APP TITLE (max 30 chars):
+Prayana — Karnataka Travel
+
+SHORT DESCRIPTION (max 80 chars):
+AI trips · Hidden food · Dream train routes · ₹9
+
+LONG DESCRIPTION (max 4000 chars):
+
+Section 1 — The Hook:
+Karnataka is not one world. It is 31 districts, 6 cuisines, 3 coastlines, and 2000 years of history. Prayana is the travel app built for all of it.
+
+Section 2 — Features:
+✦ AI Itinerary Generator — complete Karnataka trip plan for just ₹9
+🕵️ Hidden Eats — community-discovered food spots across Karnataka
+🚂 Kanasu Daari — 15 iconic routes, tells you which side of the train to sit
+🗺️ My Karnataka Map — fog-of-war map of all 31 districts
+💰 My Cash Wallet — earn credits, 3rd trip free
+📶 Works Offline — download itinerary as PDF before you travel
+🆘 SOS Safety — emergency contacts + GPS location in one tap
+
+Section 3 — Closing:
+Built by a Kannadiga, for everyone who wants to discover Karnataka beyond the tourist trail. Not a subscription. Not ₹999/year. ₹9 per trip — pay only when you plan. First 500 users get free itineraries.

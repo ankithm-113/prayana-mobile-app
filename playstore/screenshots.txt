@@ -1,0 +1,31 @@
+Screenshot 1 — Home Screen
+Top text: "Discover Karnataka"
+Bottom text: "Destinations, food, and hidden gems — all in one app"
+
+Screenshot 2 — Plan Screen (trip form)
+Top text: "Plan Any Karnataka Trip"
+Bottom text: "Tell us where, how many days, your budget — AI does the rest"
+
+Screenshot 3 — Itinerary Result
+Top text: "Complete Itinerary in 30 Seconds"
+Bottom text: "Day-by-day plan, food stops, booking links — for just ₹9"
+
+Screenshot 4 — Food / Hidden Eats Screen
+Top text: "Hidden Eats"
+Bottom text: "No-signboard stalls, verified by real travellers"
+
+Screenshot 5 — My Karnataka Map
+Top text: "My Karnataka — 31 Districts"
+Bottom text: "Every trip lights up a new district on your map"
+
+Screenshot 6 — Kanasu Daari
+Top text: "Kanasu Daari — Dream Routes"
+Bottom text: "Which side of the train to sit — only on Prayana"
+
+Screenshot 7 — My Cash Wallet
+Top text: "₹9 Per Trip. 3rd Trip Free."
+Bottom text: "Earn My Cash on every action"
+
+Screenshot 8 — Destination Detail
+Top text: "Rich Destination Guides"
+Bottom text: "Every Karnataka district — not just the tourist trail"

@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "655242539905",
+    "project_id": "prayana-app-prod",
+    "storage_bucket": "prayana-app-prod.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655242539905:android:5b2f262fa4f3de71906e80",
+        "android_client_info": {
+          "package_name": "com.prayana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655242539905-jhgfcrf8b9qhjtmpra4f6ccht1l664aj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prayana",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "655242539905-t73hmal84q7d3m12rb6lru48nfjsmhme.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prayana",
+            "certificate_hash": "910bec3a9a45bb90e4245f6d7000a245a049f231"
+          }
+        },
+        {
+          "client_id": "655242539905-4t2bmev0jpdpr12bls7cgb92f2p7i3de.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8-J_BnlsT8yAS7VWQpM_-Uxb0-nF3K6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655242539905-4t2bmev0jpdpr12bls7cgb92f2p7i3de.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "655242539905-avfngljan1i6s6pukdehk63uvgptcp0q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.prayana"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

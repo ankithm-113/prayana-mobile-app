@@ -1,0 +1,156 @@
+{
+  "hampi_3": {
+    "tripTitle": "Hampi: The City of Victory",
+    "summary": "A 3-day deep dive into the UNESCO World Heritage site of Vijayanagara ruins, coracle rides, and hippie island vibes.",
+    "fromCity": "Bengaluru",
+    "toCity": "Hampi",
+    "totalDays": 3,
+    "budget": "Moderate",
+    "days": [
+      {
+        "dayNumber": 1,
+        "dayTitle": "Ancient Ruins & Sunsets",
+        "stops": [
+          {
+            "time": "08:00 AM", "name": "Virupaksha Temple", "type": "attraction",
+            "description": "The oldest functioning temple in Hampi, dedicated to Lord Shiva.",
+            "cost": "₹50", "insiderTip": "Watch the temple elephant Lakshmi take a bath in the Tungabhadra river at 7:30 AM.", "isStreetFood": false
+          },
+          {
+            "time": "01:00 PM", "name": "Mango Tree Restaurant", "type": "food",
+            "description": "Legendary haunt for travelers, serving great thalis and continental food.",
+            "cost": "₹350", "insiderTip": "Try their Special Thali.", "isStreetFood": false
+          },
+          {
+            "time": "05:30 PM", "name": "Matanga Hill", "type": "activity",
+            "description": "Highest point in Hampi, offering a panoramic view of the ruins.",
+            "cost": "Free", "insiderTip": "Start climbing at least 45 mins before sunset.", "isStreetFood": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "dayTitle": "The Royal Center & Vittala",
+        "stops": [
+          {
+            "time": "09:00 AM", "name": "Vittala Temple", "type": "attraction",
+            "description": "Home to the iconic Stone Chariot and musical pillars.",
+            "cost": "₹40", "insiderTip": "Take the electric buggies from the parking spot.", "isStreetFood": false
+          },
+          {
+            "time": "04:30 PM", "name": "Coracle Ride", "type": "activity",
+            "description": "Traditional round boat ride on the Tungabhadra river.",
+            "cost": "₹300", "insiderTip": "Negotiate the price if you are a group.", "isStreetFood": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "dayTitle": "Anegundi & Hippie Island",
+        "stops": [
+          {
+            "time": "10:00 AM", "name": "Anjanadri Hill", "type": "attraction",
+            "description": "Birthplace of Lord Hanuman, involves a 575-step climb.",
+            "cost": "Free", "insiderTip": "Keep your bags closed; monkeys are very active here.", "isStreetFood": false
+          }
+        ]
+      }
+    ],
+    "foodHighlights": [
+      {
+        "dishName": "Badane Kaayi Palya", "whereToFind": "Hampi Bazaar Stalls",
+        "howToFind": "Next to the monolith Nandi", "price": "₹60", "bestTime": "Dinner",
+        "isUnnamed": true, "whySpecial": "Authentic North Karnataka brinjal curry"
+      }
+    ],
+    "budgetBreakdown": {
+      "transport": { "amount": 1200, "details": "Overnight KSRTC sleeper and local auto rickshaws" },
+      "accommodation": { "amount": 2500, "details": "Guest house in Hampi Bazaar or homestay on Hippie Island" },
+      "food": { "amount": 1500, "details": "Mix of cafe food and local stalls" },
+      "entryFees": { "amount": 500, "details": "Main temple complex and ASI monuments" },
+      "activities": { "amount": 800, "details": "Coracle ride and bouldering session" },
+      "miscellaneous": { "amount": 500, "details": "Souvenirs and snacks" },
+      "total": 7000, "perDay": 2333,
+      "savingTips": ["Use shared autos whenever possible", "Walk between the ruins in the Royal Center"]
+    },
+    "packingList": {
+      "essentials": ["Sunscreen", "Large hat", "Water bottle"],
+      "clothing": ["Breathable cottons", "Comfortable walking shoes/sandals"],
+      "destinationSpecific": ["Torch for evening walks", "Mosquito repellent"]
+    },
+    "travelTips": ["The ruins involve a lot of walking, stay hydrated.", "Alcohol is restricted in the main ruins area."],
+    "bestTimeToVisit": "November to February",
+    "warnings": ["Dehydration is common. Carry at least 2L of water."],
+    "bookingRecommendations": { "bus": "KSRTC Airavat", "train": "Hampi Express", "accommodation": "Archana Guesthouse" }
+  },
+  "coorg_2": {
+    "tripTitle": "Coffee & Mist: Coorg Weekend",
+    "summary": "Refresh your soul in the 'Scotland of India' with spice estates, waterfalls, and Kodava culture.",
+    "fromCity": "Bengaluru",
+    "toCity": "Madikeri",
+    "totalDays": 2,
+    "budget": "Budget",
+    "days": [
+      {
+        "dayNumber": 1,
+        "dayTitle": "Madikeri Highlights",
+        "stops": [
+          {
+            "time": "09:00 AM", "name": "Raja's Seat", "type": "attraction",
+            "description": "Garden with a stunning view of Coorg's hills.",
+            "cost": "₹10", "insiderTip": "Visit early to see the mist lifting over the valley.", "isStreetFood": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "dayTitle": "Abbey Falls & Kushalnagar",
+        "stops": [
+          {
+            "time": "10:00 AM", "name": "Abbey Falls", "type": "attraction",
+             "description": "Waterfalls nestled within coffee plantations.",
+             "cost": "₹15", "insiderTip": "Wear shoes with good grip; it can be slippery.", "isStreetFood": false
+          }
+        ]
+      }
+    ],
+    "foodHighlights": [
+      { "dishName": "Pandi Curry", "whereToFind": "Coorg Cuisine, Madikeri", "howToFind": "Opposite the Post Office", "price": "₹300", "bestTime": "Lunch", "isUnnamed": false, "whySpecial": "Iconic Kodava pork curry with Kachampuli vinegar." }
+    ],
+    "budgetBreakdown": {
+      "transport": { "amount": 1000, "details": "KSRTC bus and local scooters" },
+      "accommodation": { "amount": 2000, "details": "Homestay near Madikeri" },
+      "food": { "amount": 1200, "details": "Authentic Kodava meals" },
+      "entryFees": { "amount": 200, "details": "Waterfall and garden entries" },
+      "activities": { "amount": 400, "details": "Estate tour" },
+      "miscellaneous": { "amount": 500, "details": "Coffee powder and spices" },
+      "total": 5300, "perDay": 2650,
+      "savingTips": ["Rent a scooter for ₹500/day to save on taxi costs", "Eat at local messes instead of luxury resorts"]
+    },
+    "packingList": {
+      "essentials": ["Light jacket", "Sturdy shoes"],
+      "clothing": ["Quick-dry t-shirts", "Jeans"],
+      "destinationSpecific": ["Leech socks (if trekking in monsoon)", "Umbrella"]
+    },
+    "travelTips": ["Mobile network is spotty in some estates.", "Plan your travel before 7 PM as most roads are isolated."],
+    "bestTimeToVisit": "October to April",
+    "warnings": ["Roads are winding, carry motion sickness medicine if needed."],
+    "bookingRecommendations": { "bus": "Flybus or Airavat", "train": "Nearest is Mysuru", "accommodation": "Zostel Coorg" }
+  },
+  "gokarna_3": {
+    "tripTitle": "Gokarna: Beach Trek & Bliss",
+    "summary": "A perfect blend of spirituality and seaside relaxation across five major beaches.",
+    "fromCity": "Bengaluru",
+    "toCity": "Gokarna",
+    "totalDays": 3,
+    "budget": "Moderate",
+    "days": [],
+    "foodHighlights": [],
+    "budgetBreakdown": { "transport": { "amount": 1500, "details": "Train/Bus" }, "accommodation": { "amount": 3000, "details": "Beach shack" }, "food": { "amount": 2000, "details": "Cafes" }, "entryFees": { "amount": 100, "details": "Temples" }, "activities": { "amount": 500, "details": "Boats" }, "miscellaneous": { "amount": 500, "details": "Shopping" }, "total": 7600, "perDay": 2533, "savingTips": ["Walk the beach trek trail instead of taking boat taxis."] },
+    "packingList": { "essentials": ["Sunscreen", "Beach towel"], "clothing": ["Shorts", "Swimwear"], "destinationSpecific": ["Footwear suitable for trekking"] },
+    "travelTips": ["Carry cash, as many shacks don't accept cards."],
+    "bestTimeToVisit": "October to March",
+    "warnings": ["Swim only in designated safe areas."],
+    "bookingRecommendations": { "bus": "Private sleepers or KSRTC", "train": "Matsyagandha Express", "accommodation": "Namaste Cafe" }
+  }
+}

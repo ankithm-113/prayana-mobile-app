@@ -1,0 +1,116 @@
+import React, { useEffect, useRef } from 'react';
+import { View, Text, TouchableOpacity, Animated, StyleSheet } from 'react-native';
+import { useSOSStore } from '../store/sosStore';
+import colors from '../theme/colors';
+import { trackEvent } from '../services/analytics';
+import * as Haptics from 'expo-haptics';
+
+const SOSButton = () => {
+  const setOpen = useSOSStore((state) => state.setOpen);
+  
+  const ringScale = useRef(new Animated.Value(1)).current;
+  const ringOpacity = useRef(new Animated.Value(0.4)).current;
+  const pulseAnim = useRef(new Animated.Value(0)).current;
+
+  useEffect(() => {
+    // Ring Animation
+    Animated.loop(
+      Animated.parallel([
+        Animated.timing(ringScale, { toValue: 2.2, duration: 2000, useNativeDriver: true }),
+        Animated.timing(ringOpacity, { toValue: 0, duration: 2000, useNativeDriver: true }),
+      ])
+    ).start();
+
+    // Shadow Pulse
+    Animated.loop(
+      Animated.sequence([
+        Animated.timing(pulseAnim, { toValue: 1, duration: 1000, useNativeDriver: true }),
+        Animated.timing(pulseAnim, { toValue: 0, duration: 1000, useNativeDriver: true }),
+      ])
+    ).start();
+  }, [ringScale, ringOpacity, pulseAnim]);
+
+  const shadowInterpolate = pulseAnim.interpolate({
+    inputRange: [0, 1],
+    outputRange: [0.5, 0.8],
+  });
+
+  return (
+    <View style={styles.container}>
+      {/* Ripple Ring */}
+      <Animated.View
+        style={[
+          styles.ring,
+          {
+            transform: [{ scale: ringScale }],
+            opacity: ringOpacity,
+          },
+        ]}
+      />
+
+      {/* SOS Button */}
+      <TouchableOpacity
+        activeOpacity={0.8}
+        onPress={() => {
+          Haptics.notificationAsync(Haptics.NotificationFeedbackType.Warning);
+          setOpen(true);
+          trackEvent('sos_opened');
+        }}
+        style={[
+          styles.button,
+          {
+            shadowOpacity: shadowInterpolate,
+          },
+        ]}
+      >
+        <Text style={styles.sosText}>SOS</Text>
+        <Text style={styles.helpText}>HELP</Text>
+      </TouchableOpacity>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    position: 'absolute',
+    bottom: -25, // Adjusted further down as requested
+    right: -30, // Adjusted right position to account for larger container
+    zIndex: 500,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 150, // Much larger container so it inherently fits the scaled rings
+    height: 150,
+  },
+  ring: {
+    position: 'absolute',
+    width: 54,
+    height: 54,
+    borderRadius: 27, // Must be exactly half of width/height for a perfect circle
+    backgroundColor: colors.red,
+  },
+  button: {
+    width: 54,
+    height: 54,
+    borderRadius: 27,
+    backgroundColor: colors.red,
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 20,
+    shadowColor: colors.red,
+    shadowOffset: { width: 0, height: 0 },
+    shadowRadius: 30,
+  },
+  sosText: {
+    fontSize: 12,
+    fontWeight: 'bold',
+    color: colors.white,
+  },
+  helpText: {
+    fontSize: 7,
+    color: colors.white,
+    marginTop: -2,
+    fontWeight: 'bold',
+  },
+});
+
+export default SOSButton;

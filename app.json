@@ -2,6 +2,7 @@
   "expo": {
     "name": "Prayana",
     "slug": "Prayana",
+    "scheme": "prayana",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,21 +10,45 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#C8102E"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.prayana",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#C8102E",
+        "foregroundImage": "./assets/adaptive-icon.png"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-web-browser",
+      "expo-image-picker",
+      "expo-audio",
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-google-signin/google-signin",
+      "@react-native-firebase/messaging",
+      "@react-native-firebase/crashlytics",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          },
+          "android": {
+            "extraMavenRepos": [
+              "https://maven.google.com"
+            ]
+          }
+        }
+      ],
+      "expo-video"
+    ]
   }
 }
